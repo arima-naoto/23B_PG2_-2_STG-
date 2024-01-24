@@ -17,8 +17,6 @@ private:
 
 	int radius_;
 
-	int speed_;
-
 	unsigned int color_;
 
 	bool isAlive_;

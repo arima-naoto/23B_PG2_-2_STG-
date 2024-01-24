@@ -6,20 +6,22 @@ void Enemy::Initalize()
 	position_.x = 640;
 	position_.y = 150;
 	radius_ = 20;
-	speed_ = 7;
 	color_ = WHITE;
 	isAlive_ = true;
 }
 
 void Enemy::Update() 
 {
+
+	int EnemySpeedX = 7;
+
 	if (isAlive_ == true) 
 	{
-		position_.x += speed_;
+		position_.x += EnemySpeedX;
 
 		if (position_.x >= 1260 || position_.x <= 20) 
 		{
-			speed_ *= -1;
+			EnemySpeedX *= -1;
 		}
 	}
 }
