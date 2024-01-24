@@ -6,7 +6,7 @@ void Enemy::Initalize()
 	position_.x = 640;
 	position_.y = 150;
 	radius_ = 20;
-	color_ = WHITE;
+	color_ = RED;
 	isAlive_ = true;
 }
 
