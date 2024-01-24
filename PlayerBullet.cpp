@@ -15,13 +15,13 @@ PlayerBullet::PlayerBullet()
 
 void PlayerBullet::Update() 
 {
-	if (isShot_ = true) 
+	if (isShot_ == true) 
 	{
 		position_.y -= speed_;
 
 		if (position_.y <= -20) 
 		{
-			isShot_ = true;
+			isShot_ = false;
 		}
 	}
 }
