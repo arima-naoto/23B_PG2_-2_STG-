@@ -1,17 +1,17 @@
 #pragma once
 #include "Struct.h"
 
-class Enemy
+class PlayerBullet
 {
 public:
 
-	void Initalize();
+	PlayerBullet();
 
 	void Update();
 
 	void Draw();
 
-private:
+public:
 
 	Vector2 position_;
 
@@ -21,6 +21,6 @@ private:
 
 	unsigned int color_;
 
-	bool isAlive_;
+	bool isShot_;
 
 };
