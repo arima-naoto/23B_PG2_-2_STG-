@@ -14,6 +14,12 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c8f593e8-9171-4c1a-b4fd-4067f2b39f94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Object">
+      <UniqueIdentifier>{dd7e8483-eab3-40e1-b692-d56288630378}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\KamataEngine\DirectXGame\base\DirectXCommon.cpp">
