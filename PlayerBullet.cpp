@@ -15,7 +15,7 @@ PlayerBullet::PlayerBullet()
 
 void PlayerBullet::Update() 
 {
-	if (isShot_ = true) 
+	if (isShot_ == true) 
 	{
 		position_.y -= speed_;
 
