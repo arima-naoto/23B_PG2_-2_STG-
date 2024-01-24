@@ -21,7 +21,7 @@ void PlayerBullet::Update()
 
 		if (position_.y <= -20) 
 		{
-			isShot_ = true;
+			isShot_ = false;
 		}
 	}
 }
